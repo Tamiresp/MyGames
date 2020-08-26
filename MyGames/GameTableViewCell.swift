@@ -18,6 +18,16 @@ class GameTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    func prepare(with game: Game) {
+        lbTitle.text = game.title ?? ""
+        lbConsole.text = game.console?.name ?? ""
+        if let image = game.cover as? UIImage {
+            ivCover.image = image
+        } else {
+            ivCover.image = UIImage(named: "noCover")
+        }
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

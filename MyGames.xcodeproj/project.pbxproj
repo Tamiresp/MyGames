@@ -19,6 +19,8 @@
 		7897672724F496D6000A826C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672624F496D6000A826C /* GameViewController.swift */; };
 		7897672924F496E4000A826C /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672824F496E4000A826C /* AddEditViewController.swift */; };
 		7897672B24F4976E000A826C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672A24F4976E000A826C /* GameTableViewCell.swift */; };
+		7897672D24F5D22F000A826C /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672C24F5D22F000A826C /* ViewController+CoreData.swift */; };
+		7897672F24F5E38A000A826C /* ConsolesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672E24F5E38A000A826C /* ConsolesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		7897672624F496D6000A826C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7897672824F496E4000A826C /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		7897672A24F4976E000A826C /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		7897672C24F5D22F000A826C /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		7897672E24F5E38A000A826C /* ConsolesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsolesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				7897672624F496D6000A826C /* GameViewController.swift */,
 				7897672824F496E4000A826C /* AddEditViewController.swift */,
 				7897672A24F4976E000A826C /* GameTableViewCell.swift */,
+				7897672C24F5D22F000A826C /* ViewController+CoreData.swift */,
+				7897672E24F5E38A000A826C /* ConsolesManager.swift */,
 			);
 			path = MyGames;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 				7897672924F496E4000A826C /* AddEditViewController.swift in Sources */,
 				7897672524F496A7000A826C /* ConsolesTableViewController.swift in Sources */,
 				7897672124F4952D000A826C /* GamesTableViewController.swift in Sources */,
+				7897672F24F5E38A000A826C /* ConsolesManager.swift in Sources */,
 				7897671424F47685000A826C /* MyGames.xcdatamodeld in Sources */,
+				7897672D24F5D22F000A826C /* ViewController+CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
