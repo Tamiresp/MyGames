@@ -20,7 +20,6 @@ class GamesTableViewController: UITableViewController {
         label.text = "Você não tem jogos cadastrados"
         label.textAlignment = .center
         
-        searchController.dimsBackgroundDuringPresentation = false
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.tintColor = .white
         searchController.searchBar.barTintColor = .white
@@ -37,7 +36,6 @@ class GamesTableViewController: UITableViewController {
          */
         self.definesPresentationContext = true
         searchController.searchResultsUpdater = self
-        searchController.dimsBackgroundDuringPresentation = false
         searchController.definesPresentationContext = true
         
         loadGames()

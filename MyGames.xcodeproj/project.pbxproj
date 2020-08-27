@@ -21,6 +21,9 @@
 		7897672B24F4976E000A826C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672A24F4976E000A826C /* GameTableViewCell.swift */; };
 		7897672D24F5D22F000A826C /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672C24F5D22F000A826C /* ViewController+CoreData.swift */; };
 		7897672F24F5E38A000A826C /* ConsolesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897672E24F5E38A000A826C /* ConsolesManager.swift */; };
+		7897673124F73F00000A826C /* AddEditConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897673024F73F00000A826C /* AddEditConsoleViewController.swift */; };
+		7897673324F73F19000A826C /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897673224F73F19000A826C /* ConsoleViewController.swift */; };
+		7897673524F7483B000A826C /* ConsoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7897673424F7483B000A826C /* ConsoleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		7897672A24F4976E000A826C /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		7897672C24F5D22F000A826C /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 		7897672E24F5E38A000A826C /* ConsolesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsolesManager.swift; sourceTree = "<group>"; };
+		7897673024F73F00000A826C /* AddEditConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditConsoleViewController.swift; sourceTree = "<group>"; };
+		7897673224F73F19000A826C /* ConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		7897673424F7483B000A826C /* ConsoleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				7897672A24F4976E000A826C /* GameTableViewCell.swift */,
 				7897672C24F5D22F000A826C /* ViewController+CoreData.swift */,
 				7897672E24F5E38A000A826C /* ConsolesManager.swift */,
+				7897673024F73F00000A826C /* AddEditConsoleViewController.swift */,
+				7897673224F73F19000A826C /* ConsoleViewController.swift */,
+				7897673424F7483B000A826C /* ConsoleTableViewCell.swift */,
 			);
 			path = MyGames;
 			sourceTree = "<group>";
@@ -164,13 +173,16 @@
 			files = (
 				7897672724F496D6000A826C /* GameViewController.swift in Sources */,
 				7897670E24F47685000A826C /* ViewController.swift in Sources */,
+				7897673324F73F19000A826C /* ConsoleViewController.swift in Sources */,
 				7897672B24F4976E000A826C /* GameTableViewCell.swift in Sources */,
 				7897670A24F47685000A826C /* AppDelegate.swift in Sources */,
 				7897670C24F47685000A826C /* SceneDelegate.swift in Sources */,
 				7897672924F496E4000A826C /* AddEditViewController.swift in Sources */,
+				7897673124F73F00000A826C /* AddEditConsoleViewController.swift in Sources */,
 				7897672524F496A7000A826C /* ConsolesTableViewController.swift in Sources */,
 				7897672124F4952D000A826C /* GamesTableViewController.swift in Sources */,
 				7897672F24F5E38A000A826C /* ConsolesManager.swift in Sources */,
+				7897673524F7483B000A826C /* ConsoleTableViewCell.swift in Sources */,
 				7897671424F47685000A826C /* MyGames.xcdatamodeld in Sources */,
 				7897672D24F5D22F000A826C /* ViewController+CoreData.swift in Sources */,
 			);

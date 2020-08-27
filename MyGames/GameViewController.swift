@@ -14,13 +14,13 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lbConsole: UILabel!
     @IBOutlet weak var lbReleaseDate: UILabel!
     @IBOutlet weak var ivCover: UIImageView!
+    @IBOutlet weak var ivConsole: UIImageView!
+    
     
     var game: Game?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,22 +40,15 @@ class GameViewController: UIViewController {
         } else {
             ivCover.image = UIImage(named: "noCoverFull")
         }
+        if let imageCosole = game?.console?.cover as? UIImage {
+            ivConsole.image = imageCosole
+        } else {
+            ivConsole.image = UIImage(named: "noCoverFull")
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! AddEditViewController
         vc.game = game
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
