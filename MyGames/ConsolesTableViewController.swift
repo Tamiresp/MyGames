@@ -13,8 +13,6 @@ class ConsolesTableViewController: UITableViewController {
     
     var consolesManager = ConsolesManager.shared
     
-    var fetchedResultController:NSFetchedResultsController<Console>!
-    
     var label = UILabel()
     
     override func viewDidLoad() {
@@ -27,7 +25,7 @@ class ConsolesTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        tableView.reloadData()
+        loadConsoles()
     }
     
     func loadConsoles() {
@@ -98,9 +96,9 @@ class ConsolesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = fetchedResultController?.fetchedObjects?.count ?? 0
+        let count = consolesManager.consoles.count
         tableView.backgroundView = count == 0 ? label : nil
-        return consolesManager.consoles.count
+        return count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
